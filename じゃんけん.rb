@@ -10,6 +10,7 @@ def game
     if cpu == 0
       puts "CPU: グー"
       puts "あいこで"
+      puts "[0]グー\n[1]チョキ\n[2]パー"
       game
     elsif cpu == 1
       puts "CPU: チョキ"
@@ -25,6 +26,7 @@ def game
     if cpu == 1
       puts "CPU: チョキ"
       puts "あいこで"
+      puts "[0]グー\n[1]チョキ\n[2]パー"
       game
     elsif cpu == 2
       puts "CPU: パー"
@@ -40,6 +42,7 @@ def game
     if cpu == 2
       puts "CPU: パー"
       puts "あいこで"
+      puts "[0]グー\n[1]チョキ\n[2]パー"
       game
     elsif cpu == 0
       puts "CPU: グー"
